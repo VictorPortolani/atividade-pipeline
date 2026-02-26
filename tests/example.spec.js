@@ -19,6 +19,7 @@
 //   // Expects page to have a heading with the name of Installation.
 //   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 // });
+const { test, expect } = require('@playwright/test');
 
 const {soma, multiplicacao} = require('../src/index.js');
 //teste para soma
