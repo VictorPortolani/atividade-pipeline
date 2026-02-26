@@ -31,12 +31,7 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
-
-name: Deploy to Vercel
-on:
-  push:
-    branches: [ main, master ]
-jobs:
+          
   deploy:
   runs-on: ubuntu-latest
   steps:
