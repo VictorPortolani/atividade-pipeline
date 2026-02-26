@@ -20,7 +20,7 @@
 //   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 // });
 
-const {soma, multiplicacao} = require('../src/index');
+const {soma, multiplicacao} = require('../src/index.js');
 //teste para soma
 test('soma de 2 + 2 deve ser igual a 4', () => {
   expect(soma(2, 2)).toBe(4);
