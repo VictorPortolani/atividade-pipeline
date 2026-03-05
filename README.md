@@ -1,5 +1,8 @@
 # Documentação da Atividade Pipeline
 
+## Teste automatizado Vercel
+https://atividade-pipeline-app.vercel.app/
+
 ## 📋 Visão Geral
 Este projeto implementa um pipeline de entrega contínua (CI/CD) com testes automatizados usando Playwright e deployment automático no Vercel.
 
